@@ -1,0 +1,19 @@
+body{
+	border: 1px solid blue;
+	margin: 0px auto; 
+	max-width: 1024px;
+}
+header{
+	background: #D1E3EE;
+}
+header nav ul li{
+	border: 1px solid red;
+	display: inline-block;
+	margin-right: 20px;
+}
+#logo{
+	margin-top: -150px;
+
+}
+/*padding es espacio en la pagina en una misma caja*/
+/*margin es el espacio entre cajas*/
