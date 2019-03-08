@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Practica 02 CSS3+HTML5</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png">
-		<img src="img/granthams.png">
-		<img src="img/paint.png">
+		<img src="img/granthams.png" id="granthams">
+		<img src="img/paint.png" id="paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -19,12 +20,12 @@
 				<li>Exhibition</li>
 			</ul>
 		</nav>
-		<section>
-			<article>
+		<section id="primeriSeccion">
+			<article id="secc01art01">
 				<img src="img/slide.jpg">
 			</article>
-			<article>
-				We can offer...
+			<article id="secc01artc02">
+				<span class="colorrosa letragrande nito">We can offer...</span> 
 				<ul>
 					<li>Highly Competitive Prices</li>
 					<li>Variable Data</li>
@@ -36,26 +37,26 @@
 					<li>Great Customer Service</li>
 				</ul>
 			</article>
-			<img src="img/bg_offer.png">
+			<img src="img/bg_offer.png" id="bgoffer">
 		</section>
-		<section>
+		<section id="segundaSeccion">
 			<article>
-				01772 25207
+				<span class="colorrosa letramediana nito">01772 25207</span>	
 			</article>
 		</section>
-		<section>
+		<section id="terceraSeccion">
 			<article>
 				<img src="img/cerdito.png">
-				Save this Spring
+				<span class="colorrosa nito">Save this Spring</span>
 				<br>
 				Fabulous disconunts on canva's and roll up's as wells
 				as many offers
 				<p>
-				Find out more 
+				<span class="colorrosa nito">Find out more</span>	 
 			</article>
 			<article>
 				<img src="img/hoja.png">
-				ECO Friendly 
+				<span class="colorverde nito">ECO Friendly </span>
 				<br>
 				ECO Friendly Materials user in our production process. <br>
 				Recicled papers and paper from Sustainable Forest(including
@@ -63,26 +64,24 @@
 			</article>
 			<article>
 				<img src="img/new.png">
-				Upload your file 
+				<span class="colorazul nito">Upload your file </span>		
 				<br>
 				Making it easy to order your printing today. Our upload facility
 				enables you to send your files directly to us. Use the notes
 				section to inform us of your order, then sit back and wait for 
 				a member of our team to contact you.
 				<p>
-				Upload Your File Now..
+				<span class="colorazul">Upload Your File Now..</span>
+				
 			</article>
 			<article>
-				Stay in touch
+				<span class="colorrosa letramediana">Stay in touch</span>
 				<br>
 				join our mailing list today <br>
 				<input type="email" placeholder="Email goes here">
 				<input type="button" value="send">
 			</article>
 		</section>
-		
-		
 	</header>
-
 </body>
 </html>
