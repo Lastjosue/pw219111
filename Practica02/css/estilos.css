@@ -5,6 +5,11 @@ body{
 	min-width: 1078px;
 	max-width: 1078px;
 }
+footer{
+	background-color: #3b65b7;
+	color: white;
+	text-align:center;
+}
 header input{
 	float: right;
 	margin-right: -250px;
@@ -66,6 +71,25 @@ header nav ul li{
 }
 #segundaSeccion article{
 	text-align:right;
+	padding-right: 122px;
+}
+#terceraSeccion article{
+	width: 23%;
+	vertical-align: top;
+	display: inline-block;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+#secc03art04{
+	padding-top: 40px;
 }
 .colorrosa{
 	color: #FF0099;
@@ -78,4 +102,10 @@ header nav ul li{
 }
 .letramediana{
 	font-size: 2em;
+}
+.colorverde{
+	color: #8BC500;
+}
+.colorazul{
+	color: #4267B3;
 }
