@@ -1,0 +1,127 @@
+body{
+	font-size: 16px;
+	color:#808080;
+	margin: 0px auto;
+	min-width: 1024px;
+	max-width: 1024px;
+}
+body ul{
+	list-style: none;
+}
+header{
+	border-bottom: 1px dashed gray;
+	padding-bottom: 30px;
+}
+header img{
+	position: relative;
+}
+header ul li{
+	padding-top: 50px;
+	display: inline-block;
+	vertical-align: top;
+	color:#131313;
+	padding-right: 25px;
+}
+#first{
+	width: 200px;
+	bottom: -30px;
+	right: -20px;
+}
+#logo{
+	width: 35px;
+	right: -540px;
+	top: -6px;
+}
+#mundo{
+	width: 35px;
+	right:-510px;
+	top:-5px;
+}
+#bandera{
+	width: 30px;
+	right:-505px;
+	top:-9px;
+}
+#buy{
+	width: 40px;
+	right: -270px;
+	bottom: -100px;
+}
+#gotoshop{
+	width: 140px;
+	right: -500px;
+	bottom: -60px;
+}
+#Seccion01{
+	margin-bottom: -50px;
+}
+#secc01art01art01{
+	font-size: 4em;
+	color: #131313;
+	border-bottom: 1px dashed gray;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-left: 10px;
+}
+#balance{
+	color: #73f33d;
+}
+#bici{
+	position: relative;
+	width: 370px;
+	right: -80px;
+}
+#secc01art01{
+	width: 52%;
+	vertical-align: top;
+	display: inline-block;
+	padding-bottom: 100px;
+}
+#secc01art01art02{
+	vertical-align: top;
+	padding-top: 30px;
+	margin-left: 10px;
+}
+#secc01art02{
+	width: 37%;
+	padding-right: 94px;
+	display: inline-block;
+}
+#video01{
+	width: 240px;
+	position: relative;
+	bottom: -30px;
+}
+#video02{
+	width: 240px;
+	position: relative;
+	right: -10px;
+	bottom: -30px;	
+}
+#years{
+	position: relative;
+	width: 140px;
+	top: -82px;
+}
+#Seccion02{
+	padding-bottom: 20px;
+	font-size: 1.2em;
+}
+#logos{
+	position: relative;
+	bottom: -15px;
+}
+footer article{
+	padding-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+	width: 18%;
+	padding-left: 15px;
+}
+footer article ul li{
+	position: relative;
+	left: -40px;
+}
+#footerart01{
+	text-align: left;
+}
