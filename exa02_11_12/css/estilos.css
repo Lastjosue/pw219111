@@ -1,0 +1,72 @@
+body{
+	font-size: 16px;
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0px auto;
+}
+header{
+
+	padding-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+header span{
+	padding-right: 20px;
+}
+#spanNorth{
+	padding-right: 250px;
+}
+#spanShop{
+	padding-right: 310px;
+}
+#menu{
+	width: 25px;
+	position: relative;
+	bottom: -5px;
+}
+#lupa{
+	width: 25px;
+	position: relative;
+	right: -190px;
+	bottom: -4px;
+}
+#Seccion1{
+	padding-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 1024px;
+
+}
+#secc01art01{
+	width: 50%
+	padding-right:50px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 85px;
+
+}
+#secc01art02{
+	width: 30%;
+	padding-right: -10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#indigo{
+	position: relative;
+	top: -200px;
+}
+#planta{
+	width: 500px;
+	/*position: relative;*/
+	right: -70px;
+}
+#tela{
+	width: 250px;
+	position: relative;
+}
+#persona{
+	width: 250px;
+	position: relative;
+}
