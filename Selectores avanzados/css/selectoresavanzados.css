@@ -1,0 +1,72 @@
+img[alt]{
+	border: 5px solid blue;
+}
+img[src="img/logo.png"]{
+	width: 400px;
+}
+img[src^="img/"]{
+	width: 150px;
+}
+img[src$="png"]{
+	width: 250px;
+}
+img[src*="mg/"]{
+	width: 1000px;
+}
+/*este es el equivalente a 
+.resaltado
+.ingles
+.archivo
+*/
+article[class~="resaltado"]{
+	border:1px dashed blue;
+}
+article[class~="ingles"]{
+	border:1px dashed red;
+}
+article[class~="archivo"]{
+	border:1px dashed green;
+}
+article[class|="ingles"]{
+	text-align: center;
+}
+div > p{
+	color:blue;
+}
+div p{
+	color:red;
+}
+/*el + significa el sig elemento despues del de la izquierda*/
+h2 + p{
+	color:gray;
+}
+/*toma todos los elementos seguidos de h2*/
+h2 ~p{
+	color:green;
+}
+/*#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+	color:red;
+}*/
+section:not(#referencias){
+	color:blue;
+}
+/*todos los impares*/
+li:nth-child(odd){
+	color:green;
+}
+/*todos los pares*/
+li:nth-child(even){
+	color:blue;
+}
+/*quinto elemento*/
+li:nth-child(5){
+	color:red;
+}
+li:nth-last-child(2){
+	color:purple;
+}
+/*primera linea del parrafo*/
+p:first-line{
+	color:red;
+	font-weight: bold;
+}

@@ -15,11 +15,33 @@ header{
 header span{
 	padding-right: 20px;
 }
+@font-face{
+	font-family: Anton;
+	src:url("fonts/Anton/Anton-Regular.ttf");
+	font-family: Heebo;
+	src:url("fonts/Heebo/Heebo-Bold.ttf");
+	font-family: Karla;
+	src:url("fonts/Karla/Karla-Bold.ttf");
+	font-family: Roboto;
+	src:url("fonts/Roboto/Roboto-Bold.ttf");
+}
+.Karla{
+	font-family: Karla, sans-serif;
+}
+.Anton{
+	font-family: Anton, sans-serif;
+}
+.Roboto{
+	font-family: Roboto, sans-serif;
+}
+.Heebo{
+	font-family: Heebo, sans-serif;
+}
 #spanNorth{
-	padding-right: 250px;
+	padding-right: 230px;
 }
 #spanShop{
-	padding-right: 310px;
+	padding-right: 250px;
 }
 #menu{
 	width: 25px;
@@ -40,27 +62,29 @@ header span{
 
 }
 #secc01art01{
-	width: 50%
+	width: 57%;
 	padding-right:50px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 85px;
+	margin-right: 40px;
 
 }
 #secc01art02{
 	width: 30%;
-	padding-right: -10px;
+	padding-left: 30px;
 	display: inline-block;
 	vertical-align: top;
+	border-left: 1px solid black;
 }
 #indigo{
 	position: relative;
-	top: -200px;
+	top: -210px;
 }
 #planta{
-	width: 500px;
-	/*position: relative;*/
+	width: 520px;
+	position: relative;
 	right: -70px;
+	margin-bottom: -10px;
 }
 #tela{
 	width: 250px;
@@ -69,4 +93,28 @@ header span{
 #persona{
 	width: 250px;
 	position: relative;
+}
+#post{
+	position: relative;
+
+}
+#indigo{
+	font-size: 2em;
+	color:#131313;
+}
+#little{
+	position: relative;
+	right: -50px;
+	font-size: 13px;
+	color: #6e6e6e;
+}
+#post{
+	position: relative;
+	top:-10px;
+	right: -70px;
+	color:#6e6e6e;
+	font-size: 12px;
+}
+#striped{
+	color:#131313;
 }

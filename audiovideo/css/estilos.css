@@ -1,0 +1,11 @@
+body{
+	text-shadow: 2px 2px red;
+	font-size: 40px;
+	font-weight: bold;
+}
+video{
+	box-shadow: 10px 10px rgba(10,10,150,0.4);
+	border-radius: 5px;
+	width: 300px;
+	margin-right: 15px;
+}
