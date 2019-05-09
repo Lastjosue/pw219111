@@ -2,23 +2,37 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<title>Primer ejemplo con VUE</title>
+	<title></title>
 </head>
 <body>
+	<!-- div donde se pondra todo el contenido, como main -->
 	<div id="app">
+		<!-- ponemos la variable 'titulo' que programamos en primerVue.js -->
 		<h1>{{ titulo }}</h1>
+		<input type="text" v-model.numer="nuevaFruta" @keyup.enter="agregarFruta">
+		<button @click="agregarFruta">Agregar fruta</button>
+		<!-- v-for es la forma del for de vue -->
+		<!-- la var fruta funciona como en un for each -->
 		<ul>
 			<li v-for="fruta of frutas">{{ fruta }}</li>
 		</ul>
+
+		<!-- v-if es el if de vue -->
+		<!-- en vue podemos accesar a las variables con objeto.nombreVar 
+			Igual que en los metodos de java metodo.var-->
 		<ul>
 			<li v-for="fruta of frutas2">
-				{{ fruta.nombre }} - {{ fruta.cantidad }}
-				<span v-if="fruta.cantidad == 0"> - no hay en almacen</span>
-			</li>
+				<!-- {{fruta.nombre}} - {{fruta.cantidad}} -->
+				<input type="number" v-model="fruta.cantidad">
+				{{fruta.nombre}} 
+				<button @click="fruta.cantidad++"> + </button>
+				<button @click="fruta.cantidad--"> - </button>
+				<span v-if="fruta.cantidad==0">no hay en almacen</span>
+			</li>	
 		</ul>
+		<h4>Total: {{ sumarFrutas }}</h4>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script src="js/primervue.js"></script>
-
+	<script src="js/primerVue.js"></script>
 </body>
 </html>
